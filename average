@@ -1,0 +1,12 @@
+average of three numbers
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    int sum=a+b+c;
+    int avg=sum/3;
+    printf("the avg=%f",avg);
+    return 0;
+}
