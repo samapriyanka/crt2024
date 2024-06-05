@@ -1,0 +1,19 @@
+// Read a no. and print +ve no. or -ve no. or zero
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a;
+    scanf("%d",&a);
+    if(a==0){
+        printf("zero");
+    }
+    else
+    if(a>0){
+        printf("positive no.");
+    }
+    else{
+    printf("negative number");
+}
+    return 0;
+}
