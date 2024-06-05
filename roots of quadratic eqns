@@ -14,3 +14,5 @@ else{
     float r2=(-b-sqrt(d))/2*a;
     printf("%f\n",r1);
     printf("%f",r2);
+return 0;
+}
